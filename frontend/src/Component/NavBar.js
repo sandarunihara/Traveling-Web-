@@ -41,9 +41,9 @@ const NavBar = () => {
     </header>
                 <div className={`sm:hidden z-20 left-0 top-0  justify-items-end grid ${menu?'visible opacity-100':'invisible opacity-0'} transition-all duration-400` }>
                     
-                        <NavLink className='mx-5 text-xl font-bold cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/"}>Home</NavLink>
-                        <NavLink className='mx-5 font-bold text-xl cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/about"}>About</NavLink>
-                        <NavLink className='mx-5 font-bold text-xl cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/contact"}>Contact Us</NavLink>
+                  <NavLink className='mx-5 text-xl font-bold cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/"}>Home</NavLink>
+                  <NavLink className='mx-5 font-bold text-xl cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/about"}>About</NavLink>
+                  <NavLink className='mx-5 font-bold text-xl cursor-pointer px-4 py-1 rounded-full hover:bg-black hover:text-white' to={"/contact"}>Contact Us</NavLink>
                     
                 </div>
     </div>
