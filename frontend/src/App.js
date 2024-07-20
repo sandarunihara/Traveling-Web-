@@ -17,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
+        {/* done */}
       </Router>
       </ThemeProvider>
   );
